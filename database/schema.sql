@@ -1,0 +1,2 @@
+-- SmartBank Database Schema
+-- Tables: customers, accounts, transactions

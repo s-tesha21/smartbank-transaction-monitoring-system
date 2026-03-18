@@ -25,3 +25,17 @@ HTML
 CSS
 
 Git
+
+
+Development Progress
+Day 1
+
+Created SmartBank database
+
+Designed tables: customers, accounts, transactions
+
+Setup Java project structure
+
+Initialized Git repository
+
+Pushed project to GitHub
