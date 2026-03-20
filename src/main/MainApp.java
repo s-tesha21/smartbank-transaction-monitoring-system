@@ -1,6 +1,7 @@
 package main;
 
 import model.Customer;
+import model.Account;
 
 public class MainApp {
 
@@ -8,8 +9,11 @@ public class MainApp {
 
         Customer customer1 = new Customer(1, "Rahul", "rahul@email.com");
 
-        System.out.println("Customer ID: " + customer1.getCustomerId());
-        System.out.println("Name: " + customer1.getName());
-        System.out.println("Email: " + customer1.getEmail());
+        Account account1 = new Account(101, customer1);
+
+        account1.deposit(5000);
+        account1.withdraw(2000);
+
+        System.out.println("Final Balance: " + account1.getBalance());
     }
 }
