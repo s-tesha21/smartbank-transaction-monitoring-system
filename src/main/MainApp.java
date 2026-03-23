@@ -2,7 +2,6 @@ package main;
 
 import model.Customer;
 import model.Account;
-
 public class MainApp {
 
     public static void main(String[] args) {
@@ -13,7 +12,10 @@ public class MainApp {
 
         account1.deposit(5000);
         account1.withdraw(2000);
+        account1.deposit(1000);
 
         System.out.println("Final Balance: " + account1.getBalance());
+
+        account1.printTransactionHistory();
     }
 }

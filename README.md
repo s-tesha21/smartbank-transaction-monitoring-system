@@ -81,3 +81,34 @@ Pushed project to GitHub
 * Initial project setup
 * Fixed package structure
 * Added Account functionality
+
+## Day 3 Progress - SmartBank System
+
+### Features Implemented
+
+* Added transaction history tracking
+* Used ArrayList to store transactions
+* Display transaction history
+
+### Concepts Learned
+
+* ArrayList (Dynamic Data Structure)
+* Java Collections Framework (Basic)
+* Looping using for-each loop
+* Data tracking in applications
+
+### Files Updated
+
+* `Account.java`
+* `MainApp.java`
+
+### Output Achieved
+
+* Transactions are stored and displayed
+* System behaves more like real banking app
+
+### Git Commits
+
+* Added transaction history feature
+
+
