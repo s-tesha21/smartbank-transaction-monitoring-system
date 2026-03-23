@@ -1,55 +1,55 @@
-SmartBank Transaction Monitoring System
+# 💳 SmartBank - Java Banking Transaction Monitoring System
 
-A Java-based banking transaction monitoring web application.
+A Java-based web application designed to simulate core banking operations with transaction monitoring and fraud detection capabilities.
 
-Features
+---
 
-Customer management
+## 🚀 Features
 
-Account management
+- Customer Management
+- Account Management
+- Transaction Processing
+- Fraud Detection System
 
-Transaction processing
+---
 
-Fraud detection system
+## 🛠️ Tech Stack
 
-Tech Stack
+- **Java**
+- **MySQL**
+- **JDBC**
+- **HTML**
+- **CSS**
+- **Git**
 
-Java
+---
 
-MySQL
+## 📅 Development Progress
 
-JDBC
+---
 
-HTML
+## 🟢 Day 1 Progress - SmartBank System
 
-CSS
+### Features Implemented
 
-Git
+* Created SmartBank database
+* Designed tables: `customers`, `accounts`, `transactions`
+* Set up Java project structure
+* Initialized Git repository
+* Pushed project to GitHub
 
+---
 
-Development Progress
-.Day 1
+## 🟡 Day 2 Progress - SmartBank System
 
-Created SmartBank database
-
-Designed tables: customers, accounts, transactions
-
-Setup Java project structure
-
-Initialized Git repository
-
-Pushed project to GitHub
-
-.Day 2 Progress - SmartBank System
-
--Features Implemented
+### Features Implemented
 
 * Created `Account` class
 * Implemented `deposit()` functionality
 * Implemented `withdraw()` functionality
 * Added balance tracking system
 
--Concepts Learned
+### Concepts Learned
 
 * Java Packages (`model`, `main`)
 * Fixing package mismatch errors
@@ -58,41 +58,43 @@ Pushed project to GitHub
 * Encapsulation (private variables + getters)
 * Object reference (Customer inside Account)
 
--Issues Faced & Resolved
+### Issues Faced & Resolved
 
 * Package name mismatch error
-* ClassNotFoundException issue
+* `ClassNotFoundException` issue
 * Folder structure understanding
 * Compilation vs Run confusion
 
--Files Updated
+### Files Updated
 
 * `Customer.java`
 * `Account.java`
 * `MainApp.java`
 
--Output Achieved
+### Output Achieved
 
 * Deposit and withdrawal working
 * Balance updating correctly
 
--Git Commits
+### Git Commits
 
 * Initial project setup
 * Fixed package structure
 * Added Account functionality
 
-## Day 3 Progress - SmartBank System
+---
+
+## 🔵 Day 3 Progress - SmartBank System
 
 ### Features Implemented
 
 * Added transaction history tracking
-* Used ArrayList to store transactions
+* Used `ArrayList` to store transactions
 * Display transaction history
 
 ### Concepts Learned
 
-* ArrayList (Dynamic Data Structure)
+* `ArrayList` (Dynamic Data Structure)
 * Java Collections Framework (Basic)
 * Looping using for-each loop
 * Data tracking in applications
@@ -110,5 +112,8 @@ Pushed project to GitHub
 ### Git Commits
 
 * Added transaction history feature
+
+---
+
 
 
